@@ -1,40 +1,30 @@
 using System;
 
-namespace MeuProjetoUrbs{
+namespace MeuProjetoUrbs
+{
     public class CartaoUrbs
     {
-        // Propriedades (O que o cartão TEM)
+        public int Id { get; set; } 
         public string Titular { get; set; }
-        public double Saldo { get; private set; }
+        
+        public double Saldo { get; set; } 
 
-        // Construtor (Como o cartão nasce)
-        public CartaoUrbs(string nomeInicial, double saldoInicial)
+        public CartaoUrbs() { }
+
+        public CartaoUrbs(string titular, double saldo)
         {
-            Titular = nomeInicial;
-            Saldo = saldoInicial;
+            Titular = titular;
+            Saldo = saldo;
         }
 
-        // Métodos (O que o cartão FAZ)
         public void Recarregar(double valor)
         {
-            if (valor > 0)
-            {
-                Saldo += valor;
-                Console.WriteLine($"✅ Recarga de R$ {valor:F2} efetuada para {Titular}.");
-            }
+            if (valor > 0) Saldo += valor;
         }
 
-        public void PagarPassagem(double valorPassagem)
+        public void PagarPassagem(double valor)
         {
-            if (Saldo >= valorPassagem)
-            {
-                Saldo -= valorPassagem;
-                Console.WriteLine($"🎫 Giro da catraca liberado! Saldo restante: R$ {Saldo:F2}");
-            }
-            else
-            {
-                Console.WriteLine("❌ Saldo insuficiente para esta viagem.");
-            }
+            if (Saldo >= valor) Saldo -= valor;
         }
     }
 }
