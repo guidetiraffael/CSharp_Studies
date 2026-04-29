@@ -1,21 +1,14 @@
 ﻿using System;
+using MeuProjetoUrbs; // Indica que vamos usar o que está no namespace acima
 
-Console.WriteLine("---Sistema de Transporte URBS (Protótipo)---");
+Console.WriteLine("--- Iniciando Sistema URBS Object-Oriented ---");
 
-string nomeUsuario = "Raffael";
-double saldo = 2.00;
-double valorPassagem = 6.00;
+// Criando uma "instância" do objeto
+CartaoUrbs meuCartao = new CartaoUrbs("Raffael Guideti", 10.00);
 
-Console.WriteLine($"Usuário: {nomeUsuario}");
-Console.WriteLine($"Saldo Atual: R$ {saldo:F2}");
+// Interagindo com o objeto
+meuCartao.PagarPassagem(6.00);
+meuCartao.Recarregar(20.00);
+meuCartao.PagarPassagem(6.00);
 
-if (saldo >= valorPassagem)
-{
-    saldo -= valorPassagem; 
-    Console.WriteLine("✅ Acesso Liberado! Boa viagem.");
-    Console.WriteLine($"Novo saldo: R$ {saldo:F2}");
-}
-else
-{
-    Console.WriteLine("❌ Saldo Insuficiente. Por favor, recarregue seu cartão.");
-}
+Console.WriteLine($"--- Fim da operação. Saldo final: R$ {meuCartao.Saldo:F2} ---");

@@ -12,3 +12,4 @@ D:\programas\C#\MeuPrimeiroProjeto\obj\Debug\net10.0\refint\MeuPrimeiroProjeto.d
 D:\programas\C#\MeuPrimeiroProjeto\obj\Debug\net10.0\MeuPrimeiroProjeto.pdb
 D:\programas\C#\MeuPrimeiroProjeto\obj\Debug\net10.0\MeuPrimeiroProjeto.genruntimeconfig.cache
 D:\programas\C#\MeuPrimeiroProjeto\obj\Debug\net10.0\ref\MeuPrimeiroProjeto.dll
+D:\programas\C#\MeuPrimeiroProjeto\obj\Debug\net10.0\MeuPrimeiroProjeto.sourcelink.json
