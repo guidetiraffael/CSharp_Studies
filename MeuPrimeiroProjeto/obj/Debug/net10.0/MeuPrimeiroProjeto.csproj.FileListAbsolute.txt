@@ -1,0 +1,14 @@
+D:\programas\C#\MeuPrimeiroProjeto\bin\Debug\net10.0\MeuPrimeiroProjeto.exe
+D:\programas\C#\MeuPrimeiroProjeto\bin\Debug\net10.0\MeuPrimeiroProjeto.deps.json
+D:\programas\C#\MeuPrimeiroProjeto\bin\Debug\net10.0\MeuPrimeiroProjeto.runtimeconfig.json
+D:\programas\C#\MeuPrimeiroProjeto\bin\Debug\net10.0\MeuPrimeiroProjeto.dll
+D:\programas\C#\MeuPrimeiroProjeto\bin\Debug\net10.0\MeuPrimeiroProjeto.pdb
+D:\programas\C#\MeuPrimeiroProjeto\obj\Debug\net10.0\MeuPrimeiroProjeto.GeneratedMSBuildEditorConfig.editorconfig
+D:\programas\C#\MeuPrimeiroProjeto\obj\Debug\net10.0\MeuPrimeiroProjeto.AssemblyInfoInputs.cache
+D:\programas\C#\MeuPrimeiroProjeto\obj\Debug\net10.0\MeuPrimeiroProjeto.AssemblyInfo.cs
+D:\programas\C#\MeuPrimeiroProjeto\obj\Debug\net10.0\MeuPrimeiroProjeto.csproj.CoreCompileInputs.cache
+D:\programas\C#\MeuPrimeiroProjeto\obj\Debug\net10.0\MeuPrimeiroProjeto.dll
+D:\programas\C#\MeuPrimeiroProjeto\obj\Debug\net10.0\refint\MeuPrimeiroProjeto.dll
+D:\programas\C#\MeuPrimeiroProjeto\obj\Debug\net10.0\MeuPrimeiroProjeto.pdb
+D:\programas\C#\MeuPrimeiroProjeto\obj\Debug\net10.0\MeuPrimeiroProjeto.genruntimeconfig.cache
+D:\programas\C#\MeuPrimeiroProjeto\obj\Debug\net10.0\ref\MeuPrimeiroProjeto.dll
