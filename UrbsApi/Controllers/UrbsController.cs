@@ -9,7 +9,6 @@ namespace UrbsApi.Controllers
         [HttpGet]
         public object Get()
         {
-            // Isso simula o que o banco de dados devolveria
             return new 
             { 
                 Id = 1,
